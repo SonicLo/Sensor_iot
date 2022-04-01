@@ -1,0 +1,105 @@
+.fondo{
+    background-color: rgb(30,30,30);
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../../images/fondoSensor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+#hero h1{
+    color: white;
+     font-size: 6.2em;
+}
+
+.nuestros-programas{
+    background-color: rgb(30,30,30);
+    color: white; 
+    
+    text-align: center;
+}
+
+.nuestros-programas .container{
+    padding: 150px 20px; 
+}
+
+.color-acento{
+    margin-top: 0;
+    font-size: 6.2em;
+}
+
+.nuestros-programas p{
+    display: none; 
+}
+
+.nuestros-programas .carta{
+    
+    background-position: center center;
+    background-size: cover;
+    padding: 190px 0px;
+  
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(150, 147, 147, 0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../../images/arduino.jpg");
+
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+          rgba(150, 147, 147, 0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../../images/sensorUltra.jpeg");
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../../images/motor2.jpg");
+
+}
+
+.carta:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../../images/potoboard.jpg");
+
+}
+
+.carta:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../../images/logo3.jpg");
+
+}
